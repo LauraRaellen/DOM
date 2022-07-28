@@ -1,6 +1,5 @@
-const element = document.querySelector('header')
-header.setAttribute('id', 'header');
+const element = document.querySelector('body')
 
-const headerID = document.querySelector('#header')
-
-console.log(headerID);
+element.classList.add("active", "green")
+console.log(element.classList);
+element.classList.toggle('active')
