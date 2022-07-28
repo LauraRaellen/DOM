@@ -1,5 +1,5 @@
 const element = document.querySelector('h1')
 
-element.innerText += " Olá Devs!"
+element.innerHTML += " Olá Devs!<small>!!!</small>"
 
-console.log(element.innerText);
+console.log(element.innerHTML);
