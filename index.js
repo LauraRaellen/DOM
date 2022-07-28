@@ -1,5 +1,6 @@
-const element = document.querySelector('input')
+const element = document.querySelector('header')
+header.setAttribute('id', 'header');
 
-element.value += "Escreva aqui!"
+const headerID = document.querySelector('#header')
 
-console.log(element.innerHTML);
+console.log(headerID);
