@@ -1,5 +1,5 @@
-const element = document.querySelector('h1')
+const element = document.querySelector('input')
 
-element.innerHTML += " Olá Devs!<small>!!!</small>"
+element.value += "Escreva aqui!"
 
 console.log(element.innerHTML);
